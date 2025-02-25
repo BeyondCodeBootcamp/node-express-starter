@@ -1,22 +1,24 @@
 # node-express-starter
 
-A template repo for express server apps.
-Check the different branches for different templates.
+A template repo for express server apps. Check the different branches for
+different templates.
 
-```bash
+```sh
 git clone git@github.com:CHANGE_ME/YOUR_PROJECT.git
-pushd YOUR_PROJECT
-npm ci
+pushd ./YOUR_PROJECT/
+npm clean-install
+
+cp -RPp ./example.env ./.env
 ```
 
 Pre-reqs
 
-```bash
-# Get webi (and follow instructions)
-curl https://webinstall.dev | bash
+```sh
+curl https://webi.sh | sh
+source ~/.config/envman/PATH.env
 ```
 
-```bash
+```sh
 webi node@lts
 webi watchexec
 ```
