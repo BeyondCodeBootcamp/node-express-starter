@@ -44,5 +44,12 @@
   "bugs": {
     "url": "https://github.com/beyondcodebootcamp/node-express-starter/issues"
   },
-  "homepage": "https://github.com/beyondcodebootcamp/node-express-starter#readme"
+  "homepage": "https://github.com/beyondcodebootcamp/node-express-starter#readme",
+  "dependencies": {
+    "@root/uuidv7": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "morgan": "^1.10.0",
+    "xtz": "^1.3.2"
+  }
 }
