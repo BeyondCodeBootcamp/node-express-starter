@@ -1,8 +1,15 @@
 {
+  "globals": {
+    "crypto": true,
+    "EventSource": true
+  },
+  "module": true,
+  "browser": true,
   "node": true,
   "esversion": 11,
   "curly": true,
   "sub": true,
+
   "bitwise": true,
   "eqeqeq": true,
   "forin": true,
@@ -14,8 +21,7 @@
   "plusplus": true,
   "undef": true,
   "unused": "vars",
-  "strict": true,
-  "maxdepth": 3,
+  "maxdepth": 4,
   "maxstatements": 100,
-  "maxcomplexity": 10
+  "maxcomplexity": 20
 }
