@@ -16,7 +16,7 @@
   },
   "exports": {
     ".": "./server.js",
-    "./*": "./*"
+    "./*": "./lib/*"
   },
   "scripts": {
     "test": "node ./tests/",
