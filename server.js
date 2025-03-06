@@ -116,7 +116,7 @@ async function nonApiErrorHandler(_err, req, res, next) {
   ts = ts.replace("T", " ");
 
   let errId = _err._id || UUIDv7.uuidv7();
-  let err = Object.assign({
+  let err = Object.assign(_err, {
     _id: errId,
     _method: req.method,
     _url: req.url,
